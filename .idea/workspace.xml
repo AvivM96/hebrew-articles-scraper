@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73302141-57d7-4c96-8ff9-11453055b692" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l6e1OJysyWn6JccwlKKO2jdZ00" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.17.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.8" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="NodeJSConfigurationType" node-parameters="--require ts-node/register" path-to-js-file="src/index.ts" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73302141-57d7-4c96-8ff9-11453055b692" name="Default Changelist" comment="" />
+      <created>1606921752376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606921752376</updated>
+      <workItem from="1606921753473" duration="8730000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="202" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606928632062">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="424" y="202" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606928632062" />
+    <state x="773" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1606928654267">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606928654267" />
+    <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606925156368">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606925156368" />
+    <state x="722" y="300" key="#xdebugger.XInspectDialog" timestamp="1606929097360">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="722" y="300" key="#xdebugger.XInspectDialog/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606929097360" />
+    <state x="1297" y="321" key="#xdebugger.evaluate" timestamp="1606932161349">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1297" y="321" key="#xdebugger.evaluate/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932161349" />
+    <state width="1733" height="466" key="DebuggerActiveHint" timestamp="1606932507450">
+      <screen x="0" y="23" width="1920" height="1003" />
+    </state>
+    <state width="1613" height="466" key="DebuggerActiveHint/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606930934505" />
+    <state width="1733" height="466" key="DebuggerActiveHint/0.23.1920.1003/-1920.23.1920.1057/1920.23.1792.1097@0.23.1920.1003" timestamp="1606932507450" />
+    <state width="1899" height="376" key="GridCell.Tab.0.bottom" timestamp="1606933146073">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606933146073" />
+    <state width="1899" height="376" key="GridCell.Tab.0.center" timestamp="1606933146069">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606933146069" />
+    <state width="1899" height="376" key="GridCell.Tab.0.left" timestamp="1606933146068">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606933146068" />
+    <state width="1899" height="376" key="GridCell.Tab.0.right" timestamp="1606933146070">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606933146070" />
+    <state width="1899" height="376" key="GridCell.Tab.1.bottom" timestamp="1606932411302">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932411302" />
+    <state width="1899" height="376" key="GridCell.Tab.1.center" timestamp="1606932411297">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932411297" />
+    <state width="1899" height="376" key="GridCell.Tab.1.left" timestamp="1606932411296">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932411296" />
+    <state width="1899" height="376" key="GridCell.Tab.1.right" timestamp="1606932411299">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932411299" />
+    <state width="1899" height="376" key="GridCell.Tab.2.bottom" timestamp="1606932405544">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932405544" />
+    <state width="1899" height="376" key="GridCell.Tab.2.center" timestamp="1606932405542">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.2.center/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932405542" />
+    <state width="1899" height="376" key="GridCell.Tab.2.left" timestamp="1606932405540">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.2.left/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932405540" />
+    <state width="1899" height="376" key="GridCell.Tab.2.right" timestamp="1606932405543">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.2.right/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932405543" />
+    <state width="1899" height="376" key="GridCell.Tab.3.bottom" timestamp="1606932405550">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.3.bottom/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932405550" />
+    <state width="1899" height="376" key="GridCell.Tab.3.center" timestamp="1606932405547">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.3.center/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932405547" />
+    <state width="1899" height="376" key="GridCell.Tab.3.left" timestamp="1606932405546">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.3.left/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932405546" />
+    <state width="1899" height="376" key="GridCell.Tab.3.right" timestamp="1606932405548">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.3.right/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932405548" />
+    <state width="960" height="540" key="XDebugger.FullValuePopup" timestamp="1606929026311">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="960" height="540" key="XDebugger.FullValuePopup/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606929026311" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1606932365367">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080/1920.0.1792.1120@0.0.1920.1080" timestamp="1606932365367" />
+  </component>
+</project>
