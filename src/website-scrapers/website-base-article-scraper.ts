@@ -10,8 +10,9 @@ export default abstract class WebsiteBaseArticleScraper {
         this.articleId = maxArticleId;
     }
 
-    public nextArticle() {
+    public nextArticle(): string {
         this.articleId -= 1;
+        return this.articleUrl;
     }
 
     public async loadContent(): Promise<void> {

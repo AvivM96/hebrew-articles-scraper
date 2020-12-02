@@ -17,7 +17,7 @@ const ArticleScrapers = new Map<Site, WebsiteBaseArticleScraper>([
 
 export default class ArticleDataCollector {
     private static get logPrefix() {
-        return this.constructor.name;
+        return 'ArticleDataCollector';
     }
 
     public static async collect(options: ArticleCollectOptions = {}): Promise<Article[]> {
@@ -28,22 +28,22 @@ export default class ArticleDataCollector {
     }
 
     private static async collectArticlesFromSite(scraper: WebsiteBaseArticleScraper, { count = 10, maxAttempts = 100 }: ArticleCollectOptions): Promise<Article[]> {
-        const logPrefix = `${this.logPrefix}`;
+        const logPrefix = `${this.logPrefix} collectArticlesFromSite`;
 
         try {
             let articlesCollected: Article[] = [];
             let attempts = 0;
 
             while (articlesCollected.length < count && attempts <= maxAttempts) {
-                const articles = await Promise.all(_.times(count, async () => {
-                    try {
-                        attempts++;
+                const articles = await Promise.all(_.times(count - articlesCollected.length, async () => {
+                    const articleUrl = scraper.nextArticle();
+                    attempts++;
 
-                        scraper.nextArticle();
+                    try {
                         await scraper.loadContent();
 
                         if(!scraper.isContentValid()) {
-                            console.log(`${logPrefix} content is not valid skipping to next page`);
+                            console.log(`${logPrefix} ${articleUrl} content is not valid skipping to next page`);
                             return;
                         }
 
@@ -51,7 +51,7 @@ export default class ArticleDataCollector {
                         scraper.nextArticle();
                         return article;
                     } catch (error) {
-                        console.log(`${logPrefix} Failed to get articleId ${scraper.articleUrl}`, error.message);
+                        console.log(`${logPrefix} Failed to get articleId ${articleUrl}`, error.message);
                     }
                 }));
 
