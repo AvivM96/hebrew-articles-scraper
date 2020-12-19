@@ -3,6 +3,7 @@ import WebsiteBaseArticleScraper from "./website-scrapers/website-base-article-s
 import WallaArticleScraper from "./website-scrapers/walla-article-scraper/walla-article-scraper";
 import Sport5ArticleScraper from "./website-scrapers/sport5-article-scraper/sport5-article-scraper";
 import * as _ from 'lodash';
+import CalcalistArticleScraper from "./website-scrapers/calcalist-article-scraper/calcalist-article-scraper";
 
 export type ArticleCollectOptions = Partial<{
     count: number;
@@ -13,6 +14,7 @@ export type ArticleCollectOptions = Partial<{
 const ArticleScrapers = new Map<Site, WebsiteBaseArticleScraper>([
     [Site.Walla, new WallaArticleScraper(3402535)],
     [Site.Sport5, new Sport5ArticleScraper(3402534)],
+    [Site.Calcalist, new CalcalistArticleScraper(3878333)],
 ])
 
 export default class ArticleDataCollector {
