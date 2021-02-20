@@ -5,6 +5,7 @@ import Sport5ArticleScraper from "./website-scrapers/sport5-article-scraper/spor
 import * as _ from 'lodash';
 import CalcalistArticleScraper from "./website-scrapers/calcalist-article-scraper/calcalist-article-scraper";
 import {IArticle} from "./db/models/article";
+import GlobesArticleScraper from "./website-scrapers/globes-article-scraper/globes-article-scraper";
 
 export type ArticleCollectOptions = Partial<{
     count: number;
@@ -17,6 +18,8 @@ const ArticleScrapers = new Map<Site, WebsiteBaseArticleScraper>([
     [Site.Walla, new WallaArticleScraper(3402535)],
     [Site.Sport5, new Sport5ArticleScraper(3402534)],
     [Site.Calcalist, new CalcalistArticleScraper(3894592)],
+    // [Site.Globes, new GlobesArticleScraper(1001361275)],
+    [Site.Globes, new GlobesArticleScraper(1000466694)],
 ])
 
 const sleep = async (seconds: number) => new Promise((resolve, reject) => setTimeout(() => resolve(0), 1000 * seconds));
@@ -64,7 +67,7 @@ export default class ArticleDataCollector {
                     }
                 }));
 
-                await sleep(1);
+                await sleep(2);
 
                 articlesCollected = [...articlesCollected, ..._.compact(articles)];
 

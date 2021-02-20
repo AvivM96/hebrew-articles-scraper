@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73302141-57d7-4c96-8ff9-11453055b692" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/db/database.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/models/article.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/website-scrapers/globes-article-scraper/globes-article-scraper.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/article-data-collector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/article-data-collector.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/database.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/website-scrapers/calcalist-article-scraper/calcalist-article-scraper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/website-scrapers/calcalist-article-scraper/calcalist-article-scraper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/website-scrapers/sport5-article-scraper/sport5-article-scraper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/website-scrapers/sport5-article-scraper/sport5-article-scraper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/website-scrapers/walla-article-scraper/walla-article-scraper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/website-scrapers/walla-article-scraper/walla-article-scraper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/website-scrapers/website-base-article-scraper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/website-scrapers/website-base-article-scraper.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +48,7 @@
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.8" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
