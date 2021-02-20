@@ -1,15 +1,16 @@
 import WebsiteBaseArticleScraper from "../website-base-article-scraper";
-import {Article, Site} from "../../types/types";
+import {Site} from "../../types/types";
 import cheerio from 'cheerio';
 import * as _ from 'lodash';
 import {isEnglish} from "../scraping-utils";
+import {IArticle} from "../../db/models/article";
 
 export default class WallaArticleScraper extends WebsiteBaseArticleScraper {
     get scrapingSite(): Site {
         return Site.Walla;
     }
 
-    extractArticle(): Article {
+    extractArticle(): Partial<IArticle> {
         const $ = cheerio.load(this.siteData);
 
         const title = $('.item-main-content header h1').text();
@@ -28,7 +29,7 @@ export default class WallaArticleScraper extends WebsiteBaseArticleScraper {
         });
 
         return {
-            id: `walla-${this.articleId}`,
+            articleId: `walla-${this.articleId}`,
             title,
             summary,
             content: articleText,

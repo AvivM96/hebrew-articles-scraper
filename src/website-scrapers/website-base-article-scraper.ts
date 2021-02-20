@@ -1,6 +1,7 @@
-import {Article, Site} from "../types/types";
+import {Site} from "../types/types";
 import axios from 'axios';
 import * as _ from 'lodash';
+import {IArticle} from "../db/models/article";
 
 export default abstract class WebsiteBaseArticleScraper {
     protected siteData: string = '';
@@ -10,14 +11,18 @@ export default abstract class WebsiteBaseArticleScraper {
         this.articleId = maxArticleId;
     }
 
-    public nextArticle(): string {
-        this.articleId -= 1;
+    public nextArticle(articleIndex?: number): string {
+        this.articleId -= articleIndex || 1;
         return this.articleUrl;
     }
 
     public async loadContent(): Promise<void> {
         const response = await axios.get(this.articleUrl);
         this.siteData = response.data;
+    }
+
+    public setArticleStartIndex(articleStartIndex: number) {
+        this.articleId -= articleStartIndex;
     }
 
     get isLoaded(): boolean {
@@ -29,6 +34,6 @@ export default abstract class WebsiteBaseArticleScraper {
     abstract get articleUrl(): string;
 
     abstract isContentValid(): boolean;
-    abstract extractArticle(): Article;
+    abstract extractArticle(): Partial<IArticle>;
 
 }
