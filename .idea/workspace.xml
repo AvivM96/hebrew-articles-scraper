@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73302141-57d7-4c96-8ff9-11453055b692" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/website-scrapers/calcalist-article-scraper/CalcalistArticleScraper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/database.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/models/article.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/article-data-collector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/article-data-collector.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/website-scrapers/calcalist-article-scraper/calcalist-article-scraper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/website-scrapers/calcalist-article-scraper/calcalist-article-scraper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/website-scrapers/sport5-article-scraper/sport5-article-scraper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/website-scrapers/sport5-article-scraper/sport5-article-scraper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/website-scrapers/walla-article-scraper/walla-article-scraper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/website-scrapers/walla-article-scraper/walla-article-scraper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/website-scrapers/website-base-article-scraper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/website-scrapers/website-base-article-scraper.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +32,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1l6e1OJysyWn6JccwlKKO2jdZ00" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -64,6 +79,9 @@
       <workItem from="1607946758680" duration="733000" />
       <workItem from="1607955201262" duration="139000" />
       <workItem from="1608389840700" duration="2271000" />
+      <workItem from="1608674370837" duration="4837000" />
+      <workItem from="1613573401786" duration="5000" />
+      <workItem from="1613774265614" duration="2935000" />
     </task>
     <servers />
   </component>
@@ -80,17 +98,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/index.ts</url>
-          <line>7</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

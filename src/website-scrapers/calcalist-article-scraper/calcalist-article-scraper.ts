@@ -1,11 +1,12 @@
 import WebsiteBaseArticleScraper from "../website-base-article-scraper";
-import {Article, Site} from "../../types/types";
+import {ArticleTopic, Site} from "../../types/types";
 import cheerio from "cheerio";
 import * as _ from "lodash";
 import {isEnglish} from "../scraping-utils";
+import {IArticle} from "../../db/models/article";
 
 export default class CalcalistArticleScraper extends WebsiteBaseArticleScraper {
-    extractArticle(): Article {
+    extractArticle(): Partial<IArticle> {
         const $ = cheerio.load(this.siteData);
 
         const title = $('.c-article-device__body h1').text();
@@ -25,11 +26,12 @@ export default class CalcalistArticleScraper extends WebsiteBaseArticleScraper {
         });
 
         return {
-            id: `calcalist-${this.articleId}`,
+            articleId: `calcalist-${this.articleId}`,
             title,
             summary,
             content: articleText,
-            site: this.scrapingSite
+            site: this.scrapingSite,
+            topic: ArticleTopic.Economy
         };
     }
 
@@ -51,7 +53,7 @@ export default class CalcalistArticleScraper extends WebsiteBaseArticleScraper {
     }
 
     get siteUrl(): string {
-        return "https://m.calcalist.co.il/Article.aspx?guid=";
+        return "https://m.calcalist.co.il/Article.aspx?guid="
     }
 
 }

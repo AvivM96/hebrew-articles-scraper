@@ -1,13 +1,14 @@
 import WebsiteBaseArticleScraper from "../website-base-article-scraper";
-import {Article, Site} from "../../types/types";
+import {Site} from "../../types/types";
+import {IArticle} from "../../db/models/article";
 
 export default class Sport5ArticleScraper extends WebsiteBaseArticleScraper {
     get scrapingSite(): Site {
         return Site.Sport5;
     }
 
-    extractArticle(): Article {
-        return {} as Article;
+    extractArticle(): Partial<IArticle> {
+        return {} as Partial<IArticle>;
     }
 
     isContentValid(): boolean {
