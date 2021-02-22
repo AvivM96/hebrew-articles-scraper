@@ -11,13 +11,17 @@ import * as _ from 'lodash';
 
     await Database.connect();
 
-    for (let page = 178; page <= 10000; page ++) {
-        const articles = await ArticleDataCollector.collect({count: 50, maxAttempts: 5000, page, sites: [Site.Calcalist]});
+    for (let page = 1; page <= 100000; page ++) {
+        const articles = await ArticleDataCollector.collect({count: 50, maxAttempts: 5000, page, sites: [Site.Globes]});
         console.log(`${logPrefix} collected page: ${page}`);
 
-        console.time('savingDB');
-        await Article.collection.insertMany(articles.filter(article => !_.isEmpty(article.content)));
-        console.timeEnd('savingDB');
+        try {
+            console.time('savingDB');
+            await Article.collection.insertMany(articles.filter(article => !_.isEmpty(article.content)));
+            console.timeEnd('savingDB');
+        } catch (e) {
+            console.error()
+        }
     }
 
     console.timeEnd('scraping');

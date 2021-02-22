@@ -5,5 +5,6 @@ export enum ArticleTopic {
 export enum Site {
     Walla = "Walla",
     Sport5 = "Sport5",
-    Calcalist = "Calcalist"
+    Calcalist = "Calcalist",
+    Globes = "Globes",
 }
