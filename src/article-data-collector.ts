@@ -18,8 +18,7 @@ const ArticleScrapers = new Map<Site, WebsiteBaseArticleScraper>([
     [Site.Walla, new WallaArticleScraper(3402535)],
     [Site.Sport5, new Sport5ArticleScraper(3402534)],
     [Site.Calcalist, new CalcalistArticleScraper(3894592)],
-    // [Site.Globes, new GlobesArticleScraper(1001361275)],
-    [Site.Globes, new GlobesArticleScraper(1000466694)],
+    [Site.Globes, new GlobesArticleScraper(1001361275)],
 ])
 
 const sleep = async (seconds: number) => new Promise((resolve, reject) => setTimeout(() => resolve(0), 1000 * seconds));
