@@ -3,3 +3,5 @@ Hebrew article web scraper that will help you gather dataset to train your machi
 
 ### Website Support
 - Walla
+- Globes
+- BizPortal
